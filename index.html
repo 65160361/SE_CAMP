@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html>
-<head>
-   
-    <title>Page title</title>
-</head>
-<body>
-    <h1>this is a heading</h>
-    <p>this is a paragraph.</p>
-</body>
+    <head>
+        <title>ปุ่ดซี่ไต่</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h1>Workshop #HTML - FORM</h1>
+        <form action="#">
+            <table border="0">
+                <tr>
+                    <td>ชื่อ</td>
+                    <td><input type="text"/></td>
+                    
+                </tr>
+                <tr>
+                    <td>สกุล</td>
+                    <td><input type="text"/></td>
+                    
+                </tr>
+                <tr>
+                    <td>วัน/เดือน/ปีเกิด</td>
+                    <td>
+                        <input type="date" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>อายุ</td>
+                    <td><input type="text"/></td>
+                    
+                </tr>
+                    <td>เพศ</td>
+                    <td>
+                        <input id="radio_a"
+                               type="radio" 
+                               name="same_radio"/>
+                        <label for="radio_a">ชาย</label>
+                        <input id="radio_b"
+                                type="radio" 
+                                name="same_radio" />
+                        <label for="radio_b">หญิง</label>
+                    </td>
+                </tr>
+                <td>รูปภาพ</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>ที่อยู่</td>
+                <td><textarea rows="4"
+                placeholder="กรุณาป้อนข้อมูล"></textarea>
+                </td>
+            </tr>
+                <tr>
+                    <td>สีที่ชอบ</td>
+                    <td>
+                        <select>
+                            <option>สีแดง</option>
+                            <option>สีฟ้า</option>
+                        </select>
+                    </td>
+                </tr>
+                <td>แนวเพลงที่ชอบ</td>
+                <td>
+                    <input id="radio_a"
+                           type="radio" 
+                           name="same_radio"/>
+                    <label for="radio_a">เพื่อชีวิต</label>
+                    <input id="radio_b"
+                            type="radio" 
+                            name="same_radio" />
+                    <label for="radio_b">ลูกทุ่ง</label>
+                    <input id="radio_c"
+                            type="radio" 
+                            name="same_radio" />
+                    <label for="radio_c">อื่นๆ</label>
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox"
+                              name="my_checkbox"> ยินยอมให้เก็บข้อมูล
+                              
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="reset" 
+                                value="Reset" >
+                    
+                    </td>
+                    <td>
+                            <input type="submit"  
+                                    value="Submit">
+                        
+                        </td>
+                </tr>  
+            </table>
+            <br><br><br>
+        </form>
+    </body>
 </html>
+
