@@ -1,0 +1,40 @@
+*{
+ 
+}
+body h1{
+    background: #a1cac1; 
+    border: 2px solid #b4e4ea;  
+    border-radius: 20px;     
+    padding-left: 18%;
+  
+}
+body{
+     background-image: url(cooooooooww.jpeg);
+    background-size: cover;
+    padding-left: 40;
+    display: flex;
+    justify-content: center;     align-content: center;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    color: rgb(33, 5, 61);
+    background-color:rgb(153, 203, 189);
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);     
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+    padding-top: 10px;
+    margin: 50px 25px;
+}
+
+.box:hover{
+    background-color:rgb(108, 145, 163);
+}
+
+.bgCathuh{
+    width: 400px;
+    height: 400px;
+}
+
+
