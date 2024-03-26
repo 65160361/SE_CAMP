@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <title>WorkShopฉ่ำๆเลยเตง</title>
+        <meta charset="utf-8" />
+    </head>
+    <body style="background-color: rgb(166, 202, 176);">
+            <h1 class="gradiant-bg" style="color: #506a4a">Workshop #HTML - FORM </h1>
+            <form class="center1" action="#">
+                <table border="0">
+                   
+                    <tr>
+                        <td style="color: #395239">ชื่อ</td>
+                        <td><input type="text"/></td>
+                        
+                    </tr>
+                    <tr>
+                        <td style="color: #395239">สกุล</td>
+                        <td><input type="text"/></td>
+                        
+                    </tr>
+                    <tr>
+                        <td style="color: #395239">วัน/เดือน/ปีเกิด</td>
+                        <td>
+                            <input type="date" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #395239">อายุ</td>
+                        <td><input type="text"/></td>
+                        
+                    </tr>
+                        <td style="color: #395239">เพศ</td>
+                        <td>
+                            <input id="radio_a"
+                                type="radio" 
+                                name="same_radio"/>
+                            <label style="color: #1378ec" for="radio_a">ชาย</label>
+                            <input id="radio_b"
+                                    type="radio" 
+                                    name="same_radio" />
+                            <label style="color: #f91cbe" for="radio_b">หญิง</label>
+                        </td>
+                    </tr>
+                    <td style="color: #395239">รูปภาพ</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td style="color: #395239">ที่อยู่</td>
+                    <td><textarea rows="4" placeholder="กรุณาป้อนข้อมูล"></textarea>
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="color: #395239">สีที่ชอบ</td>
+                        <td>
+                            <select>
+                                <option>สีแดง</option>
+                                <option>สีฟ้า</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <td style="color: #395239" >แนวเพลงที่ชอบ </td>
+                    <td>
+                        <input id="radio_a"
+                            type="radio" 
+                            name="same_radio"/>
+                        <label style="color: #384873" for="radio_a">เพื่อชีวิต</label>
+                        <input id="radio_b"
+                                type="radio" 
+                                name="same_radio" />
+                        <label style="color: #f15e09" for="radio_b">ลูกทุ่ง</label>
+                        <input id="radio_c"
+                                type="radio" 
+                                name="same_radio" />
+                        <label style="color: #395239" for="radio_c">อื่นๆ</label>
+                    </td>
+                </tr>
+                    <tr>
+                        <td  style="color: #f60035" >
+                            <input type="checkbox"
+                                name="my_checkbox"> ยินยอมให้เก็บข้อมูล
+                                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset" 
+                                    value="Reset" >
+                        
+                        </td>
+                        <td>
+                                <input type="submit"  
+                                        value="Submit">
+                            
+                            </td>
+                    </tr>  
+                </table>
+                <br><br><br>
+            
+        </form>
+    </body>
+</html>
+
+<style>
+
+.gradiant-bg{
+    background: linear-gradient( 45deg, #ffa69e, #faf3dd, #b8f2e6, #aed9e0, #5e6472);
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.center1{
+   margin-left: 40%;
+
+}
+
+</style>
